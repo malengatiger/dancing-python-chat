@@ -1,0 +1,3 @@
+gcloud projects add-iam-policy-binding kasie2024 \
+  --member="serviceAccount:firebase-adminsdk-wtna4@kasie2024.iam.gserviceaccount.com" \
+  --role="roles/aiplatform.endpointPredictor"
